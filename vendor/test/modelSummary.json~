@@ -1,0 +1,20 @@
+{
+    "total_lps": "2500",
+    "event_data": {
+        "format": [
+            "sLP",
+            "rLP",
+            "sTS",
+            "rTS"
+        ],
+        "file_name": "stats-airport_10k.csv",
+        "total_events": "249040771"
+    },
+    "model_name": "airport",
+    "original_capture_date": "16-03-19",
+    "date_analyzed": "",
+    "capture_history": [
+        "airport"
+    ],
+    "simulator_name": "warped2-models"
+}
