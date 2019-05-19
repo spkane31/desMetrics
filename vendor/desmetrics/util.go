@@ -38,7 +38,7 @@ func ParseJSON(file string) (DesTraceData, [4]int) {
 	check(err)
 	defer TraceDataFile.Close()
 
-	fmt.Println("%v: Processing input JSON file: %v", GetTime(), file)
+	fmt.Printf("%v: Processing input JSON file: %v", GetTime(), file)
 
 	json := json.NewDecoder(TraceDataFile)
 
@@ -77,7 +77,7 @@ func ParseJSON(file string) (DesTraceData, [4]int) {
 	DataNames := [4]string{"sLP", "sTS", "rLP", "rTS"}
 	for i, entry := range EventDataOrder {
 		if entry == -1 {
-			log.Fatal("Missing critical field in event data -> format of model JSON file: %v", DataNames[i])
+			log.Fatal("Missing critical field in event data -> format of model JSON file: ", DataNames[i])
 		}
 	}
 

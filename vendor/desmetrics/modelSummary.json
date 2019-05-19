@@ -1,5 +1,5 @@
 {
-    "total_lps": "2500",
+    "total_lps": 2500,
     "event_data": {
         "format": [
             "sLP",
@@ -7,11 +7,11 @@
             "sTS",
             "rTS"
         ],
-        "file_name": "stats-airport_10k.csv",
-        "total_events": "249040771"
+        "file_name": "res.csv",
+        "total_events": 154429
     },
     "model_name": "airport",
-    "original_capture_date": "16-03-19",
+    "original_capture_date": "10-05-19",
     "date_analyzed": "",
     "capture_history": [
         "airport"
