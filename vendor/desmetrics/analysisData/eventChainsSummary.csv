@@ -1,0 +1,7 @@
+# number of event chains of length X
+# chain length, num of local chains, num of linked chains, num of global chains
+1, 7542, 7233, 572
+2, 4574, 4370, 817
+3, 3130, 3035, 921
+4, 2238, 2201, 1054
+5, 8494, 8526, 12394

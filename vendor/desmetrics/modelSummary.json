@@ -5,7 +5,8 @@
             "sLP",
             "rLP",
             "sTS",
-            "rTS"
+            "rTS",
+						"sz"
         ],
         "file_name": "res.csv",
         "total_events": 154429

@@ -1,0 +1,22 @@
+{
+    "simulator_name": "warped2-models",
+    "model_name": "airport",
+    "original_capture_date": "10-05-19",
+    "capture_history": [
+        "airport"
+    ],
+    "total_lps": 2500,
+    "number_of_initial_events": 108098,
+    "event_data": {
+        "file_name": "res.csv",
+        "format": [
+            "sLP",
+            "rLP",
+            "sTS",
+            "rTS",
+            "sz"
+        ],
+        "total_events": 154429
+    },
+    "date_analyzed": "Tuesday, 21-May-19 21:08:27 CEST"
+}
